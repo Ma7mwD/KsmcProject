@@ -16,7 +16,7 @@ public class BaseTestPage
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("website.com");
+		driver.get("https://osqa.ksmc.med.sa/CRMIPortal/Login");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	}

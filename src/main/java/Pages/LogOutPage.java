@@ -28,7 +28,7 @@ public class LogOutPage extends BasePage
 	{
 		ClickButton(SubMenuHeader);
 		ClickButton(Items);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	}
 
 }
